@@ -11308,8 +11308,10 @@ p {
 }
 
 .page-section {
-  padding: 5rem 10rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
+
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
@@ -11370,6 +11372,7 @@ p {
   font-weight: 600;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
+  
 }
 #mainNav .navbar-brand img {
   height: 1.5rem;
@@ -11463,6 +11466,9 @@ header.masthead .masthead-heading {
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+  }
+  .page-section {
+    padding: 5rem 10rem;
   }
 }
 #portfolio .portfolio-item {
